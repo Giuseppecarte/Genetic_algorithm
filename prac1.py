@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 #Definimos las variables globales 
 prob_cruza = 0.9
 tam_pob = 100
-bits = 1024
+bits = 128
 prob_mut = 1/bits
 G_max = 100
 gamma = [0 if i%2 == 0 else 1 for i in range(bits)]
